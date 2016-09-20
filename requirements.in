@@ -1,0 +1,9 @@
+coverage
+flake8
+ipdb
+ipython
+isort
+pep257
+pip-tools
+pre-commit
+pylint

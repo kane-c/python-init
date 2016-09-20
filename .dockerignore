@@ -1,0 +1,8 @@
+*.md
+*.in
+.dockerignore
+.gitignore
+.git
+.gitlab-ci.yml
+.travis.yml
+Dockerfile

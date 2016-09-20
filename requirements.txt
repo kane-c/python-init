@@ -1,0 +1,75 @@
+aspy.yaml==0.3.0 \
+    --hash=sha256:ef9d73953d35eb995c0f16a3708fab3d9a9176e471fcc47eb0f2969085354ca9 \
+    --hash=sha256:fe82d46c5949dde211f2da24e58181bbeea7b6a18057a1b44250f03e5f6f3c89 \
+    # via pre-commit
+astroid==1.5.2 \
+    --hash=sha256:271f1c9ad6519a5dde2a7f0c9b62c2923b55e16569bdd888f9f9055cc5be37ed \
+    --hash=sha256:9c19f72d865a539e91115cdb6a293b5c2fecb5f611fad38b21a961a925c2e3f1 \
+    # via pylint
+cached-property==1.3.0 \
+    --hash=sha256:458e78b1c7286ece887d92c9bee829da85717994c5e3ddd253a40467f488bc81 \
+    --hash=sha256:8aacd79aa85a793419c76de9662d9a72ad4751eda2a8b8eb94223adc4d8d85f1 \
+    # via pre-commit
+click==6.7 \
+    --hash=sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d \
+    --hash=sha256:f15516df478d5a56180fbf80e68f206010e6d160fc39fa508b65e035fd75130b \
+    # via pip-tools
+coverage==4.4.1 \
+    --hash=sha256:7a9c44400ee0f3b4546066e0710e1250fd75831adc02ab99dda176ad8726f424 \
+    --hash=sha256:a5ed27ad3e8420b2d6b625dcbd3e59488c14ccc06030167bcf14ffb0f4189b77
+first==2.0.1 \
+    --hash=sha256:3bb3de3582cb27071cfb514f00ed784dc444b7f96dc21e140de65fe00585c95e \
+    --hash=sha256:41d5b64e70507d0c3ca742d68010a76060eea8a3d863e9b5130ab11a4a91aa0e \
+    # via pip-tools
+flake8==3.3.0 \
+    --hash=sha256:83905eadba99f73fbfe966598aaf1682b3eb6755d2263c5b33a4e8367d60b0d1 \
+    --hash=sha256:b907a26dcf5580753d8f80f1be0ec1d5c45b719f7bac441120793d1a70b03f12
+isort==4.2.5 \
+    --hash=sha256:56b20044f43cf6e6783fe95d054e754acca52dd43fbe9277c1bdff835537ea5c \
+    --hash=sha256:a0c38c1c5e4c70ea1141daa80c740372ad94351e92e9e07da1cd86ce65653dc4
+lazy-object-proxy==1.3.1 \
+    --hash=sha256:e34b155e36fa9da7e1b7c738ed7767fc9491a62ec6af70fe9da4a057759edc2d \
+    --hash=sha256:eb91be369f945f10d3a49f5f9be8b3d0b93a4c2be8f8a5b83b0571b8123e0a7a \
+    # via astroid
+mccabe==0.6.1 \
+    --hash=sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42 \
+    --hash=sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f \
+    # via flake8, pylint
+nodeenv==1.1.2 \
+    --hash=sha256:6e5e54b2520aff970a8a161750dedecc196b396b9436247859128e53ff7aa074 \
+    # via pre-commit
+pep257==0.7.0 \
+    --hash=sha256:d26cd2a4f572e0592f6967277136f581f924a4fe2aa38dcb7d4e532232689e80 \
+    --hash=sha256:f3d67547f5617a9cfeb4b8097ed94a954888315defaf6e9b518ff1719363bf03
+pip-tools==1.9.0 \
+    --hash=sha256:0706feb27263a2dade6d39cc508e718282bd08f455d0643f251659f905be4d56 \
+    --hash=sha256:8d2b378e514ab6132b7f3215834c13eb5434645d0afacce37bfa1d0451faa015
+pre-commit==0.14.0 \
+    --hash=sha256:211095336e4a89b1981c56b7d760cf7273deaf557d1237f1264c56233bc4fd89 \
+    --hash=sha256:2746835dc7c88685b7b64b0b86705b13c7bf426fe2c4c12c44fa4c8bffc0afe3
+pycodestyle==2.3.1 \
+    --hash=sha256:682256a5b318149ca0d2a9185d365d8864a768a28db66a84a2ea946bcc426766 \
+    --hash=sha256:6c4245ade1edfad79c3446fadfc96b0de2759662dc29d07d80a6f27ad1ca6ba9 \
+    # via flake8
+pyflakes==1.5.0 \
+    --hash=sha256:aa0d4dff45c0cc2214ba158d29280f8fa1129f3e87858ef825930845146337f4 \
+    --hash=sha256:cc5eadfb38041f8366128786b4ca12700ed05bbf1403d808e89d57d67a3875a7 \
+    # via flake8
+pylint==1.7.1 \
+    --hash=sha256:402931e0b15ac2fa05387a125cb049aba4fcd841c362613c6ad1675e0e5135d8 \
+    --hash=sha256:8b4a7ab6cf5062e40e2763c0b4a596020abada1d7304e369578b522e46a6264a
+pyyaml==3.12 \
+    --hash=sha256:592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab \
+    --hash=sha256:5ac82e411044fb129bae5cfbeb3ba626acb2af31a8d17d175004b70862a741a7 \
+    # via aspy.yaml, pre-commit
+six==1.10.0 \
+    --hash=sha256:0ff78c403d9bccf5a425a6d31a12aa6b47f1c21ca4dc2573a7e2f32a97335eb1 \
+    --hash=sha256:105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a \
+    # via astroid, pip-tools, pre-commit, pylint
+virtualenv==15.1.0 \
+    --hash=sha256:02f8102c2436bb03b3ee6dede1919d1dac8a427541652e5ec95171ec8adbc93a \
+    --hash=sha256:39d88b533b422825d644087a21e78c45cf5af0ef7a99a1fc9fbb7b481e5c85b0 \
+    # via pre-commit
+wrapt==1.10.10 \
+    --hash=sha256:42160c91b77f1bc64a955890038e02f2f72986c01d462d53cb6cb039b995cdd9 \
+    # via astroid

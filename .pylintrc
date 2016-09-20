@@ -1,0 +1,4 @@
+[MASTER]
+disable=locally-disabled
+good-names=_
+reports=n

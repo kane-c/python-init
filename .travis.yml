@@ -1,0 +1,7 @@
+sudoi: required
+services:
+  - docker
+install:
+  - docker build --pull -t python-init .
+script:
+  - docker run python-init pre-commit run --all-files

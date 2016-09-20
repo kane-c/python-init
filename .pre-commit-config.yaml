@@ -1,0 +1,28 @@
+- repo: local
+  hooks:
+  - id: flake8
+    name: flake8
+    entry: flake8
+    language: system
+    files: \.py$
+  - id: isort
+    name: isort
+    entry: isort
+    args:
+    - --diff
+    language: system
+    files: \.py$
+  - id: pep257
+    name: pep257
+    entry: pep257
+    language: system
+    files: \.py$
+  - id: pylint
+    name: pylint
+    entry: pylint
+    language: system
+    files: \.py$
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  sha: 5bf6c09bfa1297d3692cadd621ef95f1284e33c0
+  hooks:
+  - id: check-yaml

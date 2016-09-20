@@ -1,0 +1,5 @@
+image: docker:dind
+lint:
+  script:
+    - docker build . -t python-init
+    - docker run python-init pre-commit run --all-files
